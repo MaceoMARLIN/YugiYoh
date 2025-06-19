@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="../IMG/logo_YuGiOh.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="Accueil.html">ACCUEIL</a></li>
+                <li><a href="Esport.html">ESPORT</a></li>
+                <li><a href="Deck.html">DECK</a></li>
+                <li><a href="Tuto.html">TUTO</a></li>
+                <li><a href="Apropos.html">A PROPOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br><br>
+        <section class="centre">
+            <div class="bloc-texte-deck">
+                <h2 class="h1like">LES BASES DE YU-GI-OH !</h2>
+                <h2 class="h2tuto">LES CARTES MONSTRE</h2>                    <p>Les cartes Monstre sont de couleur jaune, orange, violette, blanche, bleue et noire. Elles sont à la base de tout duel et joueront un rôle primordial face à votre adversaire. Il existe de nombreux types de Monstres.</p>
+                <br>
+                <p>Certains sont très basiques et ne sont utilisés que pour leurs valeurs d'attaque (ATK) et de défense (DEF), ce sont les Monstres normaux. D'autres se révèleront parfois moins efficaces en combat mais auront des pouvoirs capables d'influencer grandement le cours de la partie, il s'agit des Monstres à Effet.</p>
+                <br>
+                <p>Chaque Monstre possède un attribut visible à droite de son nom. Certaines cartes n'affectent que les Monstres possédant un certain attribut. Le niveau d'un Monstre est représenté sous son nom par un nombre d'étoiles.</p>
+                <img src="../IMG/sista.png" class="mini" alt="Carte monstre normal">
+                <img src="../IMG/decodeur.png" class="mini" alt="Carte monstre lien">
+                <div id="overlay">
+                    <span class="close">&times;</span>
+                    <img class="overlay-content" id="fullImg" src="img" alt="Carte zoomé">
+                </div>   
+            </div>
+        </section>
+        <section class="centre">
+            <div class="bloc-texte-deck">
+                <h2 class="h2tuto">LES CARTES MAGIE</h2>
+                <p>Les cartes Magie sont de couleur verte. Elles ne peuvent généralement être utilisées que pendant votre tour. Elles peuvent avoir des effets variés comme détruire une carte, renforcer vos Monstres ou encore vous aider à réaliser des invocations.</p>
+                <br>
+                <p>Il existe différents types de cartes Magie qui pourront avoir un effet unique ou un effet continu. Certaines pourront même être jouées pendant le tour de votre adversaire : ce sont les Magie Jeu-Rapide. Vous pourrez les jouer depuis votre main pendant n'importe laquelle de vos phases, ou alors les activer pendant le tour de n'importe quel joueur si vous les avez posées face verso sur le terrain au préalable.</p>
+                <br>
+                <p>Les différents types de cartes Magie sont reconnaissables au symbôle situé juste après la mention Carte Magie, sous le nom de la carte.</p>
+                <img src="../IMG/vrains.png" class="mini" alt="Carte magie normal">
+                <img src="../IMG/fire.png" class="mini" alt="Carte magie équipement">   
+            </div>
+        </section>
+        <section class="centre">
+            <div class="bloc-texte-deck">
+                <h2 class="h2tuto">LES CARTES PIEGE</h2>
+                <p>Les cartes Piège sont de couleur pourpre. Une fois posées sur le terrain, elles peuvent être activées pendant le tour de votre adversaire. Elles peuvent également avoir des effets variés mais contrairement aux cartes Magie elles sont plutôt jouées en réaction à votre adversaire pour le surprendre et contrarier ses plans. Vous pourrez souvent les activer une fois que votre adversaire aura réalisé une action spécifique.</p>
+                <img src="../IMG/toon.png" class="mini" alt="Carte monstre normal">
+                <img src="../IMG/overroot.png" class="mini" alt="Carte monstre normal">
+            </div>
+        </section>
+        <section class="centre">
+            <div class="bloc-texte-deck">
+                <h2 class="h2tuto">LE TERRAIN DE JEU</h2>
+                <ul>
+                    <li><p><span style="color: yellow">Les zones Monstre Main :</span> C'est ici que vous placez vos cartes Monstre une fois que vous les avez jouées. Vous ne pouvez avoir que 5 cartes Monstre en jeu au même moment</p>
+                    <li><p><span style="color: yellow">Les zones cartes Magie et Piège :</span> Vous pouvez avoir jusqu'à 5 cartes Magie et/ou Piège dans cette zone. Vous ne pourrez pas jouer d'autres cartes de ce type si ces 5 emplacements sont occupés.</p></li>
+                        <li><p><span style="color: yellow">Le cimetière :</span> C'est ici que sont placées vos cartes Monstre une fois détruites et vos cartes Magie et Piège une fois utilisées. Les 2 joueurs peuvent consulter à tout moment les cartes d'un cimetière. L'ordre des cartes du cimetière ne doit pas être modifié.</p>
+                    <li><p><span style="color: yellow">La zone du Deck :</span> Placez ici votre Deck face verso et mélangé de manière aléatoire. C'est ici que vous piochez vos cartes.</p></li>
+                    <li><p><span style="color: yellow">La zone carte terrain :</span> C'est l'emplacement réservé aux cartes Magie de Terrain. Vous ne pouvez avoir qu'une seule de ces cartes en jeu à tout moment. Chaque fois que vous en jouez une nouvelle, la précédente est détruite. Les cartes Magie de Terrain ne comptent pas dans la limite des 5 cartes de la zone Magie et Piège.</p></li>
+                    <li><p><span style="color: yellow">La zone Extra Deck :</span> C'est l'emplacement de votre Extra Deck à partir duquel vous pourrez invoquer certaines cartes Monstre. Vous pouvez regarder son contenu à tout moment.</p></li>
+                    <li><p><span style="color: yellow">La zone bannie :</span> Elle n'apparaît pas sur le plupart des tapis de jeu. Située à droite de votre cimetière, elle accueille les cartes qui ont été bannies par l'effet d'autres cartes. Généralement, vous ne pourrez plus réutiliser ces cartes au cours du Duel.</p></li>
+                </ul>
+                <img src="../IMG/field.png" class="mini" id="lessmini" alt="Carte monstre normal">
+            </div>
+        </section>
+        <form method="post" action="#" name="Quiz" class="centre" id="quizForm">
+            <fieldset class="Quiz">
+                <legend>Méthodes d'invocation</legend>
+                <ol>
+                    <li>
+                        <label for="monsterType">Quel type de carte préférez-vous ?</label>
+                        <ul>
+                            <li><input type="radio" id="monsterType" name="monsterType" value="monstreLink" required>Méchas/Machines</li>
+                            <li><input type="radio" id="monsterType2" name="monsterType" value="monstreDrake">Dragons</li>
+                            <li><input type="radio" id="monsterType3" name="monsterType" value="monstrePand">Mages/Guerriers</li>
+                        </ul>
+                        </li>
+                    <li>
+                        <label for="playstyle">Quel style de jeu préférez-vous ?</label>
+                        <ul>
+                            <li><input type="radio" id="playstyle" name="playstyle" value="aggressive" required> Aggressif</li>
+                            <li><input type="radio" id="playstyle2" name="playstyle" value="defensive"> Défensif</li>
+                            <li><input type="radio" id="playstyle3" name="playstyle" value="combo"> Combo</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="difficulty">Quel complexité preférez-vous pour votre deck</label>
+                        <ul>
+                            <li><input type="radio" id="difficulty" name="difficulty" value="facile" required> Facile</li>
+                            <li><input type="radio" id="difficulty2" name="difficulty" value="moyen"> Moyen</li>
+                            <li><input type="radio" id="difficulty3" name="difficulty" value="difficile"> Difficile</li>
+                        </ul>
+                    </li>
+                </ol>
+            </fieldset>
+            <button type="submit" class="formButton">Envoyer</button>
+        </form>
+
+
+        <div class="hideQ" id="result1">
+            <img src="../IMG/Link.webp" alt="Bannière Monstre lien" class="banner">
+            <h1>Les monstres Lien</h1>
+            <p>Les Monstres Lien sont des monstres pouvant être invoqués depuis l’Extra Deck. Une Invocation Lien consiste à envoyer depuis le Terrain au Cimetière un certain nombre de monstres correspondant aux conditions d’invocation du Monstre Lien souhaité. Les Monstres Lien ne possèdent pas de points de Défense, ainsi ils ne peuvent qu'être en position d'attaque.</p>
+            <div class="section">
+                <div class="condition">
+                    <h2>Condition d'invocation</h2>
+                    <p>Sur l'image, les conditions d'invocation du monstre sont indiquées en rouge.</p>
+                    <p>La mention "2+ monstres" signifie qu'il faut au minimum 2 Monstres pour invoquer le Dragon Pare-Feu</p>
+                    <p>L’effet d’un Monstre Lien est situé au même endroit que tous les autres monstres du jeu et se lit de la même manière. </p>
+                    <p>À cela, se rajoute la Classification Lien du monstre (visible en bas à droite). Dragon Pare-Feu est un monstre dont la Classification Lien est de quatre (LINK - 4). Cela signifie qu'il faudra l'équivalent de 4 monstres pour l'invoquer (des exemples seront donnés par la suite pour mieux illustrer le propos).</p>
+                </div>
+                <div class="img-container">
+                    <img src="../IMG/Linkex.webp" alt="Exemple carte lien" class="mini">
+                </div>
+                <div class="marqueur">
+                    <h2>Les Marqueurs</h2>
+                    <p>En jaune sur l'image, les marqueurs rouges sont les endroits où le Monstre Lien va "pointer". Les marqueurs noirs sont les endroits ou votre Monstre Lien ne pointe pas.</p>
+                    <p>Une zone pointée par un Monstre Lien libère une zone dans laquelle vous pouvez invoquer un monstre depuis l'Extra Deck. Vous pouvez également utiliser les marqueurs des Monstres de l'adversaire qui pointent sur votre terrain pour vos propres invocations.</p>
+                    <p>Sans Monstre Lien, il est seulement possible d'invoquer des Monstres de l'Extra Deck dans la zone qui leur est dédiée.</p>
+                </div>
+            </div>
+            <div>
+                <p>Les Monstres liens sont souvent des mechas ou des robots humanoides comme la fameuses série des carte "Bavard", mais il peut aussi y avoir des dragons comme la carte ci-dessus</p>
+                <p>Les decks utilisant des invocations liens sont des decks aggressifs car ces invocations n'ont pas de défense et utilisent beaucoup la mécanique de combo pour invoquer des Monstres assez puissants rapidement. Les decks Lien sont à première vue assez simple à comprendre mais demande une certaine compréhension des cartes et des effets pour être bien maîtrisé.</p>
+                <img src="../IMG/linkex1.png" class="mini" alt="ACCESSCODE TALKER">
+                <img src="../IMG/decodeur.png" class="mini" alt="DECODE TALKER">
+            </div>
+            
+        </div>
+
+        <div class="hideQ" id="result2">
+            <img src="../IMG/pendule.webp" alt="Bannière Monstre Pendule" class="banner">
+            <h1>Les Monstres Pendule</h1>
+            <p>Les Monstres Pendule sont un type de carte unique qui peut être joué soit comme un monstre, soit comme une Carte Magie dans la Zone Pendule. Ces cartes permettent des invocations spéciales massives depuis la main ou le Cimetière en utilisant les Échelles Pendule.</p>
+            <div class="section">
+                <div class="condition">
+                    <h2>Condition d'invocation</h2>
+                    <p>Sur l'image, les conditions d'invocation du monstre sont indiquées en rouge.</p>
+                    <p>Pour invoquer des Monstres Pendule, placez deux cartes Pendule dans les Zones Pendule. Les échelles de Pendule de ces cartes déterminent le niveau des monstres que vous pouvez invoquer.</p>
+                    <p>Vous pouvez invoquer spécialement des monstres depuis votre main ou des monstres Pendule face recto dans votre Extra Deck, dont le niveau est compris entre les deux Échelles Pendule.</p>
+                </div>
+                <div class="img-container">
+                    <img src="../IMG/pendulschéma.png" alt="Exemple carte pendule" class="mini">
+                </div>
+                <div class="marqueur">
+                    <h2>Les Echelles Pendule</h2>
+                    <p>En rouge sur l'image, les Échelles Pendule sont les nombres situés en bas des Zones Pendule de la carte. Ces échelles déterminent les niveaux des monstres que vous pouvez invoquer.</p>
+                    <p>Par exemple, si vous avez une Échelle Pendule de 1 et une autre de 8, vous pouvez invoquer spécialement des monstres de niveau 2 à 7.</p>
+                    <p>Les Monstres Pendule peuvent être utilisés soit comme monstres, soit comme Cartes Magie Pendule. Lorsqu'ils sont détruits, les Monstres Pendule sont placés face recto dans l'Extra Deck au lieu du Cimetière.</p>
+                    <p>Vous pouvez utiliser les Échelles Pendule pour contrôler le flot de votre jeu et invoquer plusieurs monstres à la fois, créant des opportunités stratégiques variées.</p>
+                </div>
+            </div>
+            <div>
+                <p>Il existe des Monstre Pendule de tout type, mais la majorité des Monstres Pendule ont une forme humaine</p>
+                <p>Les decks utilisant des Monstres Pendule sont très complexe, dur à jouer et à mettre en place, surtout pour un joueur débutant. Cependant ils offrent un bon équilibre entre offense et défense en permettant à l'utilisateur d'invoquer beaucoup de monstres pendant un laps de temps très court, chacun avec sa particularité.</p>
+                <img src="../IMG/pendulex1.jpeg" class="mini" alt="ASTROGRAPH SORCERER">
+                <img src="../IMG/pendulex2.png" class="mini" alt="VEDA KALARCANUM">
+            </div>
+        </div>
+
+        <div class="hideQ" id="result3">
+            <img src="../IMG/drake.webp" alt="Bannière Monstre fusion" class="banner">
+            <h1>Les Monstres Fusion</h1>
+            <p>Les Monstres Fusion sont invoqués en utilisant des cartes spécifiques appelées Cartes Magie de Fusion, ainsi que les Matériels de Fusion requis. Ces cartes sont généralement invoquées depuis l’Extra Deck en utilisant des monstres sur le terrain ou dans votre main.</p>
+            <div class="section">
+                <div class="condition">
+                    <h2>Condition d'invocation</h2>
+                    <p>Sur l'image, les conditions d'invocation du monstre sont indiquées en rouge.</p>
+                    <p>Pour invoquer un Monstre Fusion, vous devez avoir les Matériels de Fusion spécifiés sur la carte de Monstre Fusion ainsi qu'une Carte Magie de Fusion comme "Polymérisation".</p>
+                    <p>Envoyez les Matériels de Fusion depuis votre main ou votre terrain au Cimetière, puis invoquez spécialement le Monstre Fusion depuis votre Extra Deck.</p>
+                </div>
+                <div class="img-container">
+                    <img src="../IMG/drakex.jpeg" alt="Exemple carte fusion" class="mini">
+                </div>
+                <div class="marqueur">
+                    <h2>Les cartes Magie de Fusion</h2>
+                    <p>En jaune sur l'image, les cartes Magie de Fusion telles que "Polymérisation" sont utilisées pour combiner les Matériels de Fusion afin d'invoquer des Monstres Fusion. Certaines cartes Magie de Fusion peuvent avoir des effets supplémentaires, comme "Fusion Miracle" qui vous permet d'utiliser des Matériels de Fusion depuis votre Cimetière.</p>
+                    <p>Vous pouvez également utiliser des cartes spécifiques à des archétypes, comme "Fusion Neos" pour les Monstres Fusion "Héros Élémentaire" ou "Fusion Red-Eyes" pour les Monstres Fusion "Yeux Rouges".</p>
+                    <p>Les Monstres Fusion offrent des capacités puissantes et variées, souvent combinant les forces et les attributs de leurs Matériels de Fusion, rendant vos stratégies de duel plus polyvalentes.</p>
+                </div>
+            </div>
+            <div>
+                <p>Les Monstres Fusion sont principalement des dragons, mais ils peuvent être de tout type </p>
+                <p>Les decks utilisant des Monstres Fusion sont assez simple à jouer, ce sont des decks excellents pour des joueurs débutants. Ces type de decks sont souvent basés sur peu de cartes mais extrêment fortes autant offensivement que défensivement.</p>
+                <img src="../IMG/drakex1.png" class="mini" alt="ALBA-LENATUS THE ABYSS DRAGON">
+                <img src="../IMG/drakex2.png" class="mini" alt="CYBERDARK END DRAGON">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Site Web de MARLIN Maceo et WANG Léo</p>
+    </footer>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
